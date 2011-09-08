@@ -7,7 +7,7 @@ setup(
       author='smorin',
       author_email='steeve.morin@gmail.com',
       url='https://github.com/steeve/scrapy-lxmlselector',
-      packages=['lxmlselector.py'],
+      py_modules=['lxmlselector'],
       install_requires=[
         'lxml',
         'scrapy',
